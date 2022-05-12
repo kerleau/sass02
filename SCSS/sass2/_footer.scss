@@ -1,0 +1,9 @@
+@import "variables/variables";
+
+footer {
+    background-color: $fondo-de-color;
+    border-spacing: 5px;
+    border-style:solid;
+    border-color:$color-borde;
+    border-radius: 5px;
+}

@@ -1,0 +1,9 @@
+
+@mixin pad-marg($pad,$marg){
+    padding: $pad;
+    margin: $marg;
+}
+
+h3, p, form { 
+    @include pad-marg(10px,10px);
+}

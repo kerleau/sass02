@@ -1,0 +1,17 @@
+
+ .head--user {
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+}
+
+
+.img--foot {
+    @extend.head--user;
+    border-radius: 40%;
+}
+
+
+
+
+

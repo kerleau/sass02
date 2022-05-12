@@ -1,0 +1,39 @@
+
+@import "variables/variables";
+@import "sass2/condicionales";
+@import "sass2/extend";
+@import "sass2/maps";
+@import "sass2/operaciones";
+@import "partials/header";
+@import "partials/section";
+@import "partials/footer";
+@import "sass2/mixins";
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color:$segundo-fondo;
+    font-weight: 510;
+}
+
+a:hover {
+    background-color:  $colorOver;
+ }
+
+body {
+    background-color: $fondo-de-color;
+    text-align: justify;
+}
+
+header {
+
+     border-spacing: 5px;
+     border-style:solid;
+     border-color:$color-borde;
+     border-radius: 5px;
+     font-family: 'Crimson Pro', serif;
+ }
+
+
+

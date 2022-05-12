@@ -1,0 +1,18 @@
+@import "../variables/variables";
+
+
+header {
+    background-color:$fondo-de-color;
+    text-align: center;
+    nav{
+        text-align: center;
+        a{
+            font-family: 'Courier New', Courier, monospace;
+           &:hover{
+                color: $blue;
+                background-color:  $colorOver;
+            }
+        }
+    }
+}
+
